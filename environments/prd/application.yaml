@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - ../../environments/prod/values-prd.yaml
   destination:
-    server: 'https://5922C8F26043BA5BD6F3F07BBF0A13DC.gr7.us-east-1.eks.amazonaws.com:6443'
+    name: uat-test
     namespace: default
   syncPolicy:
     automated: null
