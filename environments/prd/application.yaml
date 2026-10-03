@@ -11,7 +11,7 @@ spec:
     path: charts/user-mgmt-service
     helm:
       valueFiles:
-        - ../../environments/prod/values-prd.yaml
+        - ../../environments/prd/values-prd.yaml
   destination:
     name: uat-test
     namespace: default
