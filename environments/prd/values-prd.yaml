@@ -4,6 +4,5 @@ userMgmtDeploy:
   replicas: 10
 
 userMgmtSvc:
-  name: user-mgmt-svc
   svcPort: 80
   targetPort: 80
