@@ -1,7 +1,7 @@
 userMgmtDeploy:
-  imgVersion: stable-alpine-perl
+  imgVersion: stable-perl
   containerPort: 80
-  replicas: 1
+  replicas: 3
 
 userMgmtSvc:
   name: user-mgmt-svc

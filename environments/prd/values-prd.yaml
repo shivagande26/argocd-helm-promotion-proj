@@ -1,0 +1,9 @@
+userMgmtDeploy:
+  imgVersion: mainline-alpine-perl
+  containerPort: 80
+  replicas: 10
+
+userMgmtSvc:
+  name: user-mgmt-svc
+  svcPort: 80
+  targetPort: 80
