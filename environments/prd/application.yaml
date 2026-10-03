@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - ../../environments/prod/values-prd.yaml
   destination:
-    server: 'https://<PROD_CLUSTER_API_ENDPOINT>:6443'
+    server: 'https://5922C8F26043BA5BD6F3F07BBF0A13DC.gr7.us-east-1.eks.amazonaws.com:6443'
     namespace: default
   syncPolicy:
     automated: null
