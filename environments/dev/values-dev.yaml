@@ -1,5 +1,5 @@
 userMgmtDeploy:
-  imgVersion: alpine-perl
+  imgVersion: stable-perl
   containerPort: 80
   replicas: 1
 
