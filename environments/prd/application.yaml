@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - ../../environments/prd/values-prd.yaml
   destination:
-    name: uat-test
+    name: production
     namespace: default
   syncPolicy:
     automated: null
