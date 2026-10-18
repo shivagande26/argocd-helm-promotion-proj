@@ -1,5 +1,5 @@
 userMgmtDeploy:
-  imgVersion: stable-perl
+  imgVersion: latest
   containerPort: 80
   replicas: 1
 
