@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: token-service
+  labels:
+  {{- include "token.labels" . | indent 4 }}
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        type: webapp
+    {{- with .Values.tokenDeploy }}
+    spec:
+      containers:
+        - name: mywebapp
+          image: tomcat:{{ .imgVersion }}
+          ports:
+            - containerPort: {{ .containerPort }}
+  replicas: {{ .replicas }}
+  {{- end }}
+  selector:
+    matchLabels:
+      type: webapp

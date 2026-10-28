@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myappone-{{ .Chart.Name }}
   labels:
-  {{- include "webapp.labels" . | indent 4 }}
+  {{- include "user.labels" . | indent 4 }}
 spec:
   template:
     metadata:

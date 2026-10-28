@@ -1,0 +1,8 @@
+tokenDeploy:
+  imgVersion: latest
+  containerPort: 8080
+  replicas: 3
+
+tokenSvc:
+  svcPort: 8081
+  targetPort: 8080

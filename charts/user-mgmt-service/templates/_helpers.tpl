@@ -1,4 +1,4 @@
-{{- define "webapp.labels" }}
-type: webapp
+{{- define "user.labels" }}
+type: userapp
 created_by: helm
 {{- end }}

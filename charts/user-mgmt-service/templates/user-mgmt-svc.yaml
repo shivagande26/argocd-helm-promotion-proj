@@ -4,11 +4,11 @@ metadata:
   {{- with .Values.userMgmtSvc }}
   name: user-mgmt-svc
   labels:
-  {{- include "webapp.labels" . | indent 4 }}
+  {{- include "user.labels" . | indent 4 }}
 spec:
   ports:
     - port: {{ .svcPort }}
       targetPort: {{ .targetPort }}
   selector:
-    type: webapp
+    type: userapp
   {{- end }}
