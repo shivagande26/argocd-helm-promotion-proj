@@ -1,8 +1,7 @@
 userMgmtDeploy:
-  imgVersion: latest
+  imgVersion: test
   containerPort: 80
   replicas: 1
-
 userMgmtSvc:
   svcPort: 80
   targetPort: 80
