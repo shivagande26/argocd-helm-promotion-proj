@@ -1,5 +1,5 @@
 userMgmtDeploy:
-  imgVersion: test
+  imgVersion: v1.0
   containerPort: 80
   replicas: 10
 userMgmtSvc:
