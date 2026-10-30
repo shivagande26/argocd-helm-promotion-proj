@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: nginx:{{ .imgVersion | default "v1" }}
+          image: 8072388539/umservice:{{ .imgVersion | default "v1" }}
           ports:
             - containerPort: {{ .containerPort }}
   replicas: {{ .replicas }}
