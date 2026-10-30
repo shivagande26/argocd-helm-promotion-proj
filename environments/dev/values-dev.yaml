@@ -1,5 +1,5 @@
 userMgmtDeploy:
-  imgVersion: demo
+  imgVersion: shiva
   containerPort: 80
   replicas: 1
 userMgmtSvc:
